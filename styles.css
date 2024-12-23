@@ -1,14 +1,32 @@
 body {
     background-color: gray;
+    background-image: url(bg-figma.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Graphik', sans-serif;
 
 }
 a {
     color: white;
+    text-decoration: none;
+    font-size: 17px;
 }
 .nav{
     display: flex;
     color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
 }
 .header{
+    margin-top: 3rem;
     display: flex;
+    justify-content: space-evenly;
+}
+.social-container{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
