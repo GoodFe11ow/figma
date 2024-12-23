@@ -4,7 +4,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Graphik', sans-serif;
+    font-family: 'GraphikRegular', sans-serif;
 
 }
 a {
@@ -29,4 +29,24 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.hero{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-heading{
+    font-family: 'GraphikMedium', sans-serif;
+    font-size: 70px;
+}
+.hero-paragraph{
+    font-family: 'GraphikRegular', sans-serif;
+    font-size: 30px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
