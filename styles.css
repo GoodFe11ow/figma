@@ -50,3 +50,15 @@ a {
     align-items: center;
     text-align: center;
 }
+.hero-button{
+    font-family: 'GraphikRegular', sans-serif;
+    font-size: medium;
+    width: 14rem;
+    height: 3rem;
+    margin-top: 3rem;
+    background-color: #2091f9;
+    color: white;
+    border-radius: 1.5rem;
+    border-style: none; /*потом сделать ховер или нормальній бордер*/
+
+}
