@@ -84,7 +84,7 @@ a {
 .features-items{
     justify-items: center;
     margin-top: 7rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 
 }
 .features-container{
@@ -100,4 +100,11 @@ a {
 
 .features-video{
     padding-left: 20%;
+}
+.features-container > div > h3{
+    font-size: 20px;
+    font-family: 'GraphikMedium';
+}
+iframe{
+    border-radius: 2rem;
 }
