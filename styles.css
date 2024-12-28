@@ -67,3 +67,37 @@ a {
 .features{
     margin-top: 10rem;
 }
+.features-content{
+    justify-items: center;
+}
+.features-h2{
+    font-size: 48px;
+    font-family: 'GraphikLight';
+    letter-spacing: 3px;
+}
+.features-h4{
+    font-size: 28px;
+    font-family: 'GraphikLight';
+    letter-spacing: 2px;
+    text-align: center;
+}
+.features-items{
+    justify-items: center;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+
+}
+.features-container{
+    display: flex;
+    width: 54rem;
+    text-align: center;
+    justify-content: space-between;
+}
+.features-container > div{
+    width: 255px;
+    height: 257px;
+}
+
+.features-video{
+    padding-left: 20%;
+}
