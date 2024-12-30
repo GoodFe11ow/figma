@@ -127,3 +127,59 @@ iframe{
     font-size: 28px;
     font-weight: 400;
 }
+.light{
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light-content{
+    display: flex;
+    justify-content: center;
+    gap: 103px;
+}
+.light-text-content{
+    padding-top: 45px;
+}
+.light-text-content > h3{
+    font-family: 'GraphikMedium';
+}
+.light-text-content > h2{
+    font-size: 48px;
+    font-family: 'GraphikLight';
+    margin-top: 0;
+}
+.light-action-content > h3{
+    font-family: 'GraphikMedium';
+    margin-bottom: 0;
+}
+.light-action-content > p{
+    margin-top: 0;
+}
+.light-action-content{
+    margin-left: 10px;
+}
+.light-input{
+    margin-top: 36px;
+}
+.light-input-place{
+    width: 273px;
+    height: 54px;
+    margin-right: 12px;
+    background-color: #f4f4f4;
+    border-radius: 39px;
+    border: 1px #e8e8e8 solid;
+    padding-left: 50px;
+}
+.light-input-place::placeholder{
+    color: black;
+}
+.light-button{
+    width: 172px;
+    height: 58px;
+    border-radius: 35px;
+    background-color: #2091F9;
+    color: white;
+    font-family: 'GraphikLight';
+    font-size: 20px;
+}
