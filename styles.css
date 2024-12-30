@@ -122,10 +122,17 @@ iframe{
 .hero-content-headings > div > h2{
     font-size: 48px;
     font-weight: 400;
+    margin-top: 0px;
 }
 .hero-content-headings > div > h4{
     font-size: 28px;
     font-weight: 400;
+}
+.hero-content-headings{
+    height: 357px;
+}
+.hero-button{
+    margin-top: 35px;
 }
 .light{
     height: 45rem;
@@ -182,4 +189,35 @@ iframe{
     color: white;
     font-family: 'GraphikLight';
     font-size: 20px;
+    border: none;
 }
+.partner{
+    height: 58rem;
+}
+.row1{
+    position: relative;
+    display: flex;
+    height: 165px;
+    justify-content: center;
+}
+.row2{
+    display: flex;
+    height: 165px;
+    justify-content: center;
+
+}
+.row1 > div > h6, .row2 > div > h6{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 'GraphikLight';
+    font-weight: 400;
+}
+.row1 > div > img, .row2 > div > img{
+    padding-left: 15%;
+}
+.partner-content-action{
+    
+}
+
+
