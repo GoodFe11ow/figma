@@ -194,8 +194,20 @@ iframe{
 .partner{
     height: 58rem;
 }
+.partner-content-text{
+    text-align: center;
+    padding: 80px 0 80px 0;
+    height: 220px;
+}
+.partner-content-text > h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.partner-content-text > h4{
+    font-size: 28px;
+    font-weight: 400;
+}
 .row1{
-    position: relative;
     display: flex;
     height: 165px;
     justify-content: center;
@@ -217,7 +229,19 @@ iframe{
     padding-left: 15%;
 }
 .partner-content-action{
-    
+    width: 236px;
+    height: 60px;
+    background-color: #2091F9;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.partner-action-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }
 
 
