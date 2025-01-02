@@ -331,6 +331,9 @@ iframe{
     list-style: none;
 }
 .pricing-r-1, .pricing-r-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 335px;
     height: 607px;
     background-color: white;
@@ -338,6 +341,9 @@ iframe{
     margin-top: 43px;
 }
 .pricing-r-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 335px;
     height: 693px;
     background-color: #2091F9;
@@ -387,4 +393,37 @@ iframe{
     font-weight: 400;
     font-family: 'GraphikLight';
     margin-top: 0;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 255px;
+    height: 240px;
+}
+.pricing-list{
+    display: flex;
+    justify-content: center;
+    height: 240px;
+}
+li{
+    width: 129px;
+    height: 48px;
+}
+.pricing-button{
+    width: 255px;
+    height: 56px;
+    margin-top: 30px;
+    background-color: #2091F9;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'GraphikLight';
+}
+.pricing-r-2 > .pricing-button{
+    background-color: white;
+    color: #2091F9;
 }
