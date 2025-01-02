@@ -311,10 +311,80 @@ iframe{
     font-weight: 400;
     font-family: 'GraphikLight';
     letter-spacing: 2px;
+    height: 182px;
 }
 .pricing-text-content > h2{
     font-size: 48px;
+    margin: 0  0 7px 0;
 }
 .pricing-text-content > h4{
     font-size: 28px;
+}
+.pricing-rows{
+    display: flex;
+    height: 693px;
+    justify-content: center;
+    gap: 50px;
+}
+.pricing-r-1 *, .pricing-r-2 *, .pricing-r-3 * {
+    text-align: center;
+    list-style: none;
+}
+.pricing-r-1, .pricing-r-3{
+    width: 335px;
+    height: 607px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 43px;
+}
+.pricing-r-2{
+    width: 335px;
+    height: 693px;
+    background-color: #2091F9;
+    border-radius: 10px;
+    color: white;
+}
+.pricing-r-1 > div > h3, .pricing-r-2 > div > h3, .pricing-r-3 > div > h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'GraphikMedium';
+    margin: 40px 0 0 0;
+    height: 34px;
+}
+.pricing-r-2 > div > h3{
+    margin-top: 83px;
+}
+.pricing-r-1 > div > h6, .pricing-r-2 > div > h6, .pricing-r-3 > div > h6{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.pricing-price > div > h1{
+    font-size: 74px;
+    font-weight: 700;
+    font-family: 'GraphikMedium';
+    margin: 0 10px 0 0;
+    height: 100px;
+    text-align: center;
+    line-height: 84px;
+}
+.pricing-price{
+    display: flex;
+    height: 61px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.pricing-price > div > h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+.pricing-price > div > h6{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'GraphikLight';
+    margin-top: 0;
 }
