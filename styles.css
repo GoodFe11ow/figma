@@ -1,6 +1,7 @@
 body {
     background-color: white;
     font-family: 'GraphikRegular', sans-serif;
+    color: #252B42;
 }
 .header-bg{
     position: relative;
@@ -426,4 +427,29 @@ li{
 .pricing-r-2 > .pricing-button{
     background-color: white;
     color: #2091F9;
+}
+.contact{
+    height: 1200px;
+}
+.contact-content{
+    height: 1000px;
+    padding-top: 150px;
+}
+.contact-text{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'GraphikLight';
+    height: 182px;
+}
+.contact-text > h4{
+    font-size: 28px;
+    margin-top: 7px;
+    height: 100px;
+    letter-spacing: 2px;
+}
+.contact-text > h2{
+    font-size: 48px;
+    margin: 0;
+    height: 72px;
+    letter-spacing: 2px;
 }
