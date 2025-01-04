@@ -656,10 +656,30 @@ footer{
         font-weight: 400;
         width: 350px;
     }
-    .sentence-2{
+    .header-paragraph > .sentence-2{
         display: none;
     }
     .header-paragraph{
         width: 285px;
+    }
+    .features{
+        height: 1595px;
+        margin-top: 80px;
+    }
+    .features-h4 > .sentence-2{
+        display: none;
+    }
+    .features-content-video{
+        width: 385px;
+        height: 229px;
+    }
+    .features-mobile{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .features-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
