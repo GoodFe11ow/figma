@@ -44,9 +44,13 @@ a {
     font-family: 'GraphikMedium', sans-serif;
     font-size: 70px;
 }
+.header-h1-mobile{
+    display: none;
+}
 .header-paragraph{
-    font-family: 'GraphikRegular', sans-serif;
-    font-size: 30px;
+    font-family: 'GraphikLight', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
 }
 .header-content{
     display: flex;
@@ -630,4 +634,32 @@ footer{
 }
 .pricing-r-2 > button:hover{
     background-color: #ededed;
+}
+@media (max-width: 418px) {
+    .header-bg{
+        background-image: url(bg-figma.png);
+        background-position: center;
+        background-size:cover;
+        height: 847px;
+    }
+    .header{
+        display: none;
+    }
+    .header-h1{
+        display: none;
+      }
+    .header-h1-mobile{
+        display: inline;
+        font-size: 48px;
+        font-family: 'GraphikRegular';
+        line-height: 55px;
+        font-weight: 400;
+        width: 350px;
+    }
+    .sentence-2{
+        display: none;
+    }
+    .header-paragraph{
+        width: 285px;
+    }
 }
