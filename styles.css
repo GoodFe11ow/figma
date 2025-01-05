@@ -160,6 +160,9 @@ iframe{
 .mobile-light-img{
     display: none;
 }
+.mobile-light-h4{
+    display: none;
+}
 .light-text-content > h3{
     font-family: 'GraphikMedium';
 }
@@ -762,5 +765,35 @@ footer{
         width: 407px;
         margin: 12px 10px 0 0;
     }
-    
+    .partner{
+        height: 1060px;
+    }
+    .partner-content-text{
+        padding: 50px 0 80px 0;
+        height: 220px;
+    }
+    .row2{
+        display: none;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+    }
+    .mobile-partner-hide{
+        display: none;
+    }
+    .partner-action-button{
+        padding-top: 150px;
+    }
+    .test{
+        height: 787px;
+    }
+    .test-row > div > h4{
+        font-size: 13px;
+        width: 296px;
+        font-weight: 700;
+    }
 }
