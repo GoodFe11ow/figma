@@ -666,12 +666,19 @@ footer{
         line-height: 55px;
         font-weight: 400;
         width: 350px;
+        height: 185px;
     }
     .header-paragraph > .sentence-2{
         display: none;
     }
     .header-paragraph{
         width: 285px;
+        font-family: 'GraphikRegular';
+        padding: 10px;
+        letter-spacing: 1px;
+    }
+    .header-button{
+        margin-top: 69px;
     }
     .features{
         height: 1400px;
@@ -707,6 +714,7 @@ footer{
         flex-direction: column;
         justify-content:flex-start;
         gap: 0px;
+        padding-top: 160px;
     }
     .hero-headings > h4 > .sentence-2{
         display: none;
@@ -806,11 +814,19 @@ footer{
     .pricing{
         height: 2430px;
     }
+    .pricing-text-content > h4{
+        width: 290px;
+        padding-left: 64px;  
+    }
+    .pricing-items{
+        width: 418px;
+    }
     .pricing-rows{
         display: flex;
         flex-direction: column;
         gap: 50px;
-        margin: 80px 0 0 35px;
+        margin: 80px 0 0 41px;
+        width: 335px;
     }
     .pricing-r-3{
         margin-top: 0px;
@@ -932,5 +948,72 @@ footer{
     }
     .footer-social{
         padding-left: 56px;
+    }
+}
+.mobile-nav-container {
+    display: none; 
+    width: 100%;
+    position: relative;
+    background: transparent;
+}
+
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: none;
+}
+
+.mobile-logo img {
+    max-width: 206px;
+}
+
+.mobile-menu-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.mobile-nav a {
+    padding: 12px 0;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+}
+
+.mobile-nav a:last-child {
+    border-bottom: none;
+}
+
+.mobile-social {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0 0;
+}
+
+.mobile-social a {
+    font-size: 20px;
+    color: #333;
+}
+
+@media (max-width: 418px) {
+    .mobile-nav-container {
+        display: block;
     }
 }
