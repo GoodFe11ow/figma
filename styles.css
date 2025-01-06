@@ -826,4 +826,76 @@ footer{
     .pricing-r-2 > div > h3{
         margin-top: 40px;
     }
+    .contact{
+        height: 1568px;
+    }
+    .contact-content{
+        padding-top: 100px;
+    }
+    .contact-row{
+        width: 375px;
+    }
+    .contact-row, .right-row, .contact-item-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+    .contact-text > h4{
+        margin-bottom: 0;
+        font-weight: 400;
+        font-family: 'GraphikRegular';
+    }
+    .contact-text > h4 >.sentence-2{
+        display: none;
+    }
+    .right-row > div > iframe{
+        display: none;
+    }
+    .left-row, .contact-form{
+        width: 378px;
+        height: 669px;
+    }
+    .right-row{
+        margin-top: 350px;
+        gap: 50px;
+    }
+    .contact-form > input, .contact-form > textarea{
+        width: 260px;
+    }
+    .contact-form > textarea{
+        height: 165px;
+    }
+    .contact-button{
+        margin: 45px 140px 0 0;
+    }
+    .contact-item-container{
+        height: 172px;
+        display: flex;
+        align-items: start;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+    .contact-item-container > div{
+        display: flex;
+        flex-direction: row;
+        height: 66px;
+    }
+    .contact-item-container > div > h6{
+        text-align: start;
+        margin: 0;
+    }
+    .contact-number{
+        width: 200px;
+    }
+    .gps-address{
+        width: 349px;
+    }
+    .contact-social{
+        margin: 50px 0 0 0;
+    }
+    .contact-email, .contact-number, .gps-address{
+        display: flex;
+        gap: 20px;
+    }
 }
